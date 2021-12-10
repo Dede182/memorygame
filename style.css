@@ -3,6 +3,9 @@
   margin:0;
   box-sizing: border-box;
 }
+h3,span{
+  font-size:1.5em;
+}
 body{
   height: 70vh;
   width:100%;
@@ -14,10 +17,11 @@ body{
 .grid {
   display: grid;
   grid-template-columns: repeat(4,25%);
-  width: 60%;
-  height: 70%;
+  width: 80%;
+  grid-gap:10px;
+  height: 50%;
 }
 img{
-  width:150px;
-  height:150px;
+  width:90%;
+  height:80%;
 }
